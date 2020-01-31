@@ -1,0 +1,4 @@
+테스트 서버 정보
+http://localhost:81/index.php/parcelOut/parcelOutController/index
+
+git 셋팅

@@ -1,0 +1,9 @@
+.navbar {
+    position:relative;
+    min-height:50px;
+    margin-bottom:0;
+    border: 1px solid transparent;
+}
+
+.list .row{border-bottom:1px solid #888; padding:10px 0;}
+.list .row .area{margin:5px 0 0 0; font-size:14px; color:#333;}
