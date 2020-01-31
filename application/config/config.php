@@ -511,3 +511,13 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+$config['subclass_prefix'] = 'GA_';
+
+function _autoload_($class)
+{
+	if(strpos($class, 'CI_') !== 0)
+	{
+		@include_once( APPPATH . 'core/'. $class . EXT );
+	}
+}
